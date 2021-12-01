@@ -1,0 +1,85 @@
+[
+    {
+        "id": 1,
+        "image":"../image/img_2.png",
+        "product": "T-shirt woman",
+        "price": 28,
+        "description": "Simple shirt",
+        "color": "gray",
+        "size": "m"
+    },
+
+    {
+        "id": 2,
+        "image":"../image/img_3.png",
+        "product": "long sleeve shirt",
+        "price": 398,
+        "description": "with vertical stripes",
+        "color": "brown",
+        "size": "xs"
+    },
+    {
+        "id": 3,
+        "image":"../image/img_4.png",
+        "product": "cardigan tiger",
+        "price": 190,
+        "description": "coat ",
+        "color": "brown",
+        "size": "l"
+    },
+    {
+        "id": 4,
+        "image":"../image/img_5.png",
+        "product": "cardigan of white",
+        "price": 99,
+        "description": "woven shirt ",
+        "color": "white",
+        "size": "m"
+    },
+    {
+        "id": 5,
+        "image":"../image/img_6.png",
+        "product": "body leopard",
+        "price": 100,
+        "description": "long sleeve bodysuit",
+        "color": "yellow",
+        "size": "s"
+    },
+    {
+        "id": 6,
+        "image":"../image/img_7.png",
+        "product": "shir pink",
+        "price": 75,
+        "description": "long sleeve shirt",
+        "color": "pink",
+        "size": 28
+    },
+    {
+        "id": 7,
+        "image":"../image/img_8.png",
+        "product": "cropped stripes",
+        "price": 120,
+        "description": "long sleeve shirt",
+        "color": "orange",
+        "size": 38
+    },
+    {
+        "id": 8,
+        "image":"../image/img_9.png",
+        "product": "camisa transparente",
+        "price": 398,
+        "description": "",
+        "color": "black",
+        "size": "m"
+    },
+    {
+        "id": 9,
+        "image":"../image/img_10.png",
+        "product": "pochete clutch",
+        "price": 99,
+        "description": "short-sleeved",
+        "color": "white",
+        "size": "l"
+    }
+
+]
