@@ -1,19 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STORE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
-    <header>
-        <figure>
-            <img src="./image/logo-m3.png" alt="Logo">
+    <header class="header">
+        <figure class="logo">
+            <img src="./image/logo.png" alt="Logo" class="logo__img" width="70" height="60" />
         </figure>
-        <figure>
-            <i></i>
+        <figure class="cart">
+            <i class="fas fa-shopping-cart"><span class="cart-img">2</span></i>
         </figure>
+        <section class="header__section">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>description</th>
+                        <th>price</th>
+                        <th>size</th>
+                        <th>quantity</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>vaciar carrito</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>blusa manga corta</td>
+                        <td>89</td>
+                        <td>m</td>
+                        <td>2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </header>
+    <main class="main">
+        <section class="section__button">
+            <button class="button">filter</button>
+            <button class="button">ordenar</button>
+        </section>
+        <article class="article">
+            <aside class="aside">
+                <h2 class="aside__title">blusas</h2>
+                <h4>colors</h4>
+                <h4>sizes</h4>
+                <h4>prices</h4>
+            </aside>
+            <section class="article__products">
+                <div class="card">
+                    <div class="card__image">
+                        <figure class="card__imag">
+                            <img src="./image/img_2.png" class="card__img" width="150" height="200" />
+                        </figure>
+                        <figcaption class="card__title">
+                            camiseta mezcla
+                        </figcaption>
+                    </div>
+                    <div class="card__text">
+                        <strong class="card__price">
+                            <span class="card__symbol">$</span>512
+                        </strong>
+                        <p class="card__description">descripcion</p>
+                    </div>
+                </div>
+                <div class="card__button">
+                    <button class="button button——buy">buy</button>
+                </div>
+            </section>
+        </article>
+        <div class="main__button">
+            <button class="button button——load">load</button>
+        </div>
+    </main>
 </body>
+
 </html>
